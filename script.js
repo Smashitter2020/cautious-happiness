@@ -21,8 +21,7 @@ function updateUI() {
   document.getElementById('helpers').textContent = helpers;
 }
 
-// Helpers earn coins every 2 seconds
 setInterval(() => {
   coins += helpers;
   updateUI();
-}, 2000);
+}, 1000);
