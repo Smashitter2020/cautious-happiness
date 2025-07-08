@@ -19,4 +19,15 @@ button {
   margin: 10px;
   font-size: 1rem;
   cursor: pointer;
+  color: white;
+  background: #2196F3;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #1E88E5;
+}
+
+button:active {
+  background: #1976D2;
 }
