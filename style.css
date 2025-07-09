@@ -1,6 +1,8 @@
 /* style.css */
-body {
+* {
   font-family: 'Arial', sans-serif;
+}
+body {
   background: #f0f4f8;
   text-align: center;
   padding: 40px;
@@ -23,6 +25,7 @@ button {
   color: white;
   background: #2196F3;
   border-radius: 4px;
+  outline: none;
 }
 
 button:hover {
